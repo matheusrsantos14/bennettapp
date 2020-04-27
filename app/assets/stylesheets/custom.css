@@ -8,7 +8,7 @@
 /*======== HEADER =======*/
 
 .bg-img-full {
-	background-image: url("images/big-house.jpg");
+	background-image: url("https://bennett-app-public.s3.amazonaws.com/big-house.jpg");
 }
 
 .heading{
