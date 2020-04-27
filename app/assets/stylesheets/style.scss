@@ -443,10 +443,7 @@ body.boxed-v #wrapper {
 	color: $white;
 	font-size: 18px;
 	line-height: 30px;
-	background: #6963c5; /* Old browsers */
-	background: -moz-linear-gradient(left, #6963c5 0%, #6d61c5 4%, #6f5cc8 11%, #8641da 51%, #952de4 88%, #9828e6 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(left, #6963c5 0%,#6d61c5 4%,#6f5cc8 11%,#8641da 51%,#952de4 88%,#9828e6 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to right, #6963c5 0%,#6d61c5 4%,#6f5cc8 11%,#8641da 51%,#952de4 88%,#9828e6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background: #23CDFD; /* Old browsers */
 	p{margin: 0 0 37px;}
 	.heading{
 		color: $white;

@@ -1,6 +1,6 @@
 
 
-.shadow{
+.shadow-text{
 	text-shadow: 4px 4px 9px #000000;
 }
 
@@ -8,7 +8,7 @@
 /*======== HEADER =======*/
 
 .bg-img-full {
-	background-image: url("big-house.jpg");
+	background-image: url("https://bennett-app-public.s3.amazonaws.com/big-house.jpg");
 }
 
 .heading{
@@ -17,6 +17,7 @@
 
 .btn-bennett{
 	padding: 15px 20px;
+	border: none;
 }
 
 .btn-success{
