@@ -15,4 +15,5 @@
 //= require plugins
 //= require jquery.main
 //= require bootstrap
+//= require fontawesome
 //= require_tree .

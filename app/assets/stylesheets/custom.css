@@ -4,6 +4,15 @@
 	text-shadow: 4px 4px 9px #000000;
 }
 
+.price-icon{
+	max-width: 100px;
+	padding: 15px;
+}
+
+.pricing-table{
+	border-radius: 20px;
+}
+
 
 /*======== HEADER =======*/
 
@@ -25,5 +34,12 @@
 }
 
 .btn-wide{
-	width: 300px;
+	width: 100%;
+	max-width: 500px;
+}
+
+
+
+.bg-bennett{
+	background-color: #23CDFD;
 }

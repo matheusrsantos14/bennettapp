@@ -11,10 +11,8 @@
             <!-- start of caption -->
             <div class="caption">
               <h1 class="heading shadow-text">More than a home services company</h1>
-              <p class="shadow-text"><b>Our mission at Bennett Home Services is to help people live better, healthier, and happier lives at HOME and beyond.</b></p>
-              <div class="">
-                <a href="https://bennett.joinmajor.com" class="btn btn-lg btn-success btn-wide btn-bennett">Book A Service</a>
-              </div>
+              <p class="shadow-text text-white">Our mission at Bennett Home Services is to help people live better, healthier, and happier lives at HOME and beyond.</p>
+                <a href="https://bennett.joinmajor.com" class="btn btn-lg btn-success btn-wide">Book A Service</a>
             </div><!-- end of caption -->
             <div class="pad-top-lg hidden-xs"></div>
             <div class="pad-bottom-sm"></div>
@@ -34,72 +32,137 @@
             <!-- start of text-block -->
             <div class="text-block">
               <h1 class="heading"><b>Who Are We?</b></h1>
-              <strong class="title text-uppercase">A Relationship-Building Company</strong>
+              <strong class="text-uppercase">A Relationship-Building Company</strong>
+              <br>
               <p>It's not about closing a sale, but starting a relationship. We value your trust in us and work hard to keep it and build on it. Your happiness, health, and betterment is extremely important to us and we love to show you through every service we provide.</p>
 
-              <strong class="title text-uppercase">A Happiness-Maximizing Company</strong>
+              <strong class="text-uppercase">A Happiness-Maximizing Company</strong>
+              <br>
               <p>Your satisfaction is so important to us that we guarantee it. We don't want to impress you simply on the first visit, but every visit after that.</p>
 
-              <strong class="title text-uppercase">An Innovation-Leading Company</strong>
+              <strong class="text-uppercase">An Innovation-Leading Company</strong>
+              <br>
               <p>Year after year service companies don't change, innovate, or provide more value. We believe we owe our clients a dedication to innovating on our products, quality, communication, ease of use, and more. Making your life easier is part of our core belief and mission.</p>
 
-              <strong class="title text-uppercase">A Family Company</strong>
+              <strong class="text-uppercase">A Family Company</strong>
+              <br>
               <p>Our company is family-owend and for over 15 Years our family has served other families in the home services industry helping them live better lives. Our family grows consistantly and includes our team members. We treat them with respect, love, and care. Our family also includes you, our client. As a family we can help eachother live a better, healthier, and happier lives.</p>
             </div><!-- end of text-block -->
           </div>
           <div class="col-xs-12 col-sm-6">
             <%= image_tag url_for('bennett-car.jpg'), class:"img-responsive" %>
+            <%= image_tag url_for('cleaning-lady.jpg'), class:"img-responsive" %>
           </div>
         </div>
       </div><!-- end of video-section -->
-      <!-- start of feature-list -->
-      <div class="container feature-list pad-top-md pad-bottom-md">
-        <div class="row">
-          <div class="col-xs-12 col-sm-4">
-            <div class="img-holder"><%= image_tag('icon03.png') %></div>
-            <h3 class="subheading">House Cleaning</h3>
-            <p>Residential cleaning that can be customized to your liking.</p>
-            <a href="https://bennett.joinmajor.com/services/5/bookings/new" class="btn btn-success btn-wide btn-bennett mt-3">Book A Service</a>
-          </div>
-          <div class="col-xs-12 col-sm-4">
-            <div class="img-holder"><%= image_tag('icon03.png') %></div>
-            <h3 class="subheading">Junk Removal</h3>
-            <p>Full-service junk removal from anywhere in your home, our team is on it.</p>
-            <a href="https://bennett.joinmajor.com/services/5/bookings/new" class="btn btn-success btn-wide btn-bennett mt-3">Book A Service</a>
-          </div>
-          <div class="col-xs-12 col-sm-4">
-            <div class="img-holder"><%= image_tag('icon03.png') %></div>
-            <h3 class="subheading">Gutter Cleaning</h3>
-            <p>One-time or recurring cleanings available to keep your gutters clean and roof protected.</p>
-            <a href="https://bennett.joinmajor.com/services/5/bookings/new" class="btn btn-success btn-wide btn-bennett mt-3">Book A Service</a>
-          </div>
-          <div class="col-xs-12 col-sm-4">
-            <div class="img-holder"><%= image_tag('icon03.png') %></div>
-            <h3 class="subheading">Power Washing</h3>
-            <p>Bring your home back to life with a good cleaning. Our powerwashing service is great right before the summer.</p>
-            <a href="https://bennett.joinmajor.com/services/5/bookings/new" class="btn btn-success btn-wide btn-bennett mt-3">Book A Service</a>
-          </div>
-          <div class="col-xs-12 col-sm-4">
-            <div class="img-holder"><%= image_tag('icon03.png') %></div>
-            <h3 class="subheading">Window Cleaning</h3>
-            <p>Cleaning your windows youself is very dangerous and having a professional do it is HIGHLY recommended.</p>
-            <a href="https://bennett.joinmajor.com/services/5/bookings/new" class="btn btn-success btn-wide btn-bennett mt-3">Book A Service</a>
-          </div>
-          <div class="col-xs-12 col-sm-4">
-            <div class="img-holder"><%= image_tag('icon03.png') %></div>
-            <h3 class="subheading">Residential Sanitization</h3>
-            <p>A new and very popular service we have created to protect families by sanitizing homes from the COVID-19 Virus.</p>
-            <a href="https://bennett.joinmajor.com/services/5/bookings/new" class="btn btn-success btn-wide btn-bennett mt-3">Book A Service</a>
-          </div>
+
+
+
+
+
+
+      <div class="container">
+
+        <h2><b>Our Services</b></h2>
+
+        <div class="row space-top-1">
+          <!-- Pricing Carousel -->
+
+            <div class="col mb-7">
+              <!-- Pricing -->
+              <div class="card transition-3d-hover">
+                <!-- Header -->
+                  <header class="card-header text-center p-5">
+                    <span class="d-block">
+                      <%= image_tag url_for('house-icon.png'), class:"price-icon" %>
+                      <h3>House Cleaning</h3>
+                    </span>
+                  </header>
+                <!-- End Header -->
+
+                <!-- Content -->
+                <div class="card-body p-5">
+                  <ul class="list-group list-group-flush list-group-borderless mb-4">
+                    <li class="list-group-item">Recurring Cleaning</li>
+                    <li class="list-group-item">Move In/Out Cleaning</li>
+                    <li class="list-group-item">One Time Cleaning</li>
+                    <li class="list-group-item">Deep Cleaning</li>
+                  </ul>
+
+                  <a href="https://bennett.joinmajor.com" class="btn btn-sm btn-block btn-success transition-3d-hover">Get Started</a>
+                </div>
+                <!-- End Content -->
+              </div>
+              <!-- End Pricing -->
+            </div>
+
+            <div class="col mb-7">
+              <!-- Pricing -->
+              <div class="card transition-3d-hover">
+                <!-- Header -->
+                  <header class="card-header text-center p-5">
+                    <span class="d-block">
+                      <%= image_tag url_for('building-icon.png'), class:"price-icon" %>
+                      <h3>Office Cleaning</h3>
+                    </span>
+                  </header>
+                <!-- End Header -->
+
+                <!-- Content -->
+                <div class="card-body p-5">
+                  <ul class="list-group list-group-flush list-group-borderless mb-4">
+                    <li class="list-group-item">Recurring Cleaning</li>
+                    <li class="list-group-item">One Time Cleaning</li>
+                    <li class="list-group-item">Sanitization Services</li>
+                    <li class="list-group-item">Custom Services</li>
+                  </ul>
+
+                  <a href="https://bennett.joinmajor.com" class="btn btn-sm btn-block btn-success transition-3d-hover">Get Started</a>
+                </div>
+                <!-- End Content -->
+              </div>
+              <!-- End Pricing -->
+            </div>
+
+            <div class="col mb-7">
+              <!-- Pricing -->
+              <div class="card transition-3d-hover">
+                <!-- Header -->
+                  <header class="card-header text-center p-5">
+                    <span class="d-block">
+                      <%= image_tag url_for('window-icon.png'), class:"price-icon" %>
+                      <h3>Window Cleaning</h3>
+                    </span>
+                  </header>
+                <!-- End Header -->
+
+                <!-- Content -->
+                <div class="card-body p-5">
+                  <ul class="list-group list-group-flush list-group-borderless mb-4">
+                    <li class="list-group-item">Custom Services</li>
+                    <li class="list-group-item">Recurring Cleaning</li>
+                    <li class="list-group-item">One Time Cleaning</li>
+                    <li class="list-group-item">Interior/Exterior</li>
+                  </ul>
+
+                  <a href="https://bennett.joinmajor.com" class="btn btn-sm btn-block btn-success transition-3d-hover">Get Started</a>
+                </div>
+                <!-- End Content -->
+              </div>
+              <!-- End Pricing -->
+            </div>
+
+          <!-- End Pricing Carousel -->
         </div>
-      </div><!-- end of feature-list -->
+        <!-- End Pricing Section -->
+      </div>
 
 
       <!-- start of service-section -->
       <section class="service-section text-center pad-top-md pad-bottom-md">
         <div class="container">
           <h2 class="heading">Here At Your Service</h2>
-          <p>Don't want to book online? That's okay. Our customer support team is ready to help you with any questions you might have. Click the button below to easily contact our team.</p>
+          <p class="text-white">Don't want to book online? That's okay. Our customer support team is ready to help you with any questions you might have. Click the button below to easily contact our team.</p>
           <a href="tel:8573018618" class="btn text-uppercase">Call Bennett Home Services</a>
         </div>
       </section><!-- end of service-section -->
