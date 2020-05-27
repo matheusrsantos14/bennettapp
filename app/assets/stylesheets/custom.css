@@ -16,6 +16,10 @@ body{
 	background-image: url("https://bennett-app-public.s3.amazonaws.com/family-time.png");
 }
 
+.bg-img-full-giving{
+	background-image: url("https://bennett-app-public.s3.amazonaws.com/helping-hands.png");
+}
+
 .heading{
 	font-size: 40px;
 }
