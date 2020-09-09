@@ -1,0 +1,40 @@
+
+.logo-mobile-landing{
+	width: 100%;
+	text-align: center;
+}
+
+.logo-mobile-landing a img {
+	text-align: center;
+	width: 150px;
+}
+
+.caption-mobile-landing{
+	width: 100%;
+	text-align: center;
+}
+
+.header-img-mobile-landing{
+	width: 100%;
+}
+
+.bg-mobile-landing {
+	background-color: #fff;
+}
+
+.sponsor-logo-mobile-landing{
+	width: 260px;
+}
+
+.features-list-mobile-landing ul li{
+	list-style: none;
+}
+
+.features-list-mobile-landing-list-item-icon{
+	display: inline-block;
+}
+
+.features-list-mobile-landing-list-item-text{
+	margin-left: 10px;
+	display: inline-block;
+}
