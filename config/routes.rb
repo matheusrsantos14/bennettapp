@@ -4,4 +4,5 @@ Rails.application.routes.draw do
 
   root 'pages#index'
   get 'giveback' => 'pages#giveback'
+  get 'homecleaning' => 'pages#home_cleaning_landing'
 end
